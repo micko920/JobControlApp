@@ -1,0 +1,23 @@
+{
+  "GraySeperator": {
+    "description": "Auto imported from components/GraySeperator.vue"
+  },
+  "JobList": {
+    "description": "Auto imported from components/JobList.vue"
+  },
+  "Link": {
+    "description": "Auto imported from components/Link.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "OkBtn": {
+    "description": "Auto imported from components/OkBtn.vue"
+  },
+  "SideMenu": {
+    "description": "Auto imported from components/SideMenu.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  }
+}
