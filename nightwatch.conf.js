@@ -110,7 +110,6 @@ module.exports = {
         ]
       }
     },
-
     // ////////////////////////////////////////////////////////////////////////////////
     // Configuration for when using the browserstack.com cloud service               |
     //                                                                               |
