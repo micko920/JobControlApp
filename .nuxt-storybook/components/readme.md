@@ -6,10 +6,12 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<Button>` | `<button>` (components/Button.vue)
 - `<GraySeperator>` | `<gray-seperator>` (components/GraySeperator.vue)
 - `<JobList>` | `<job-list>` (components/JobList.vue)
 - `<Link>` | `<link>` (components/Link.vue)
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<OkBtn>` | `<ok-btn>` (components/OkBtn.vue)
 - `<SideMenu>` | `<side-menu>` (components/SideMenu.vue)
+- `<Table>` | `<table>` (components/Table.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)

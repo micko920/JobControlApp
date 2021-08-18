@@ -1,5 +1,5 @@
 export default {
-    title: 'Link'
-  }
-  
-  export const NuxtWebsite = () => '<Link />'
+  title: 'Link',
+}
+
+export const NuxtWebsite = () => '<Link />'

@@ -1,4 +1,7 @@
 {
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
   "GraySeperator": {
     "description": "Auto imported from components/GraySeperator.vue"
   },
@@ -16,6 +19,9 @@
   },
   "SideMenu": {
     "description": "Auto imported from components/SideMenu.vue"
+  },
+  "Table": {
+    "description": "Auto imported from components/Table.vue"
   },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
