@@ -15,14 +15,23 @@ const Template = (args, { argTypes }) => ({
   template: '<my-button @onClick="onClick" v-bind="$props" />',
 });
 
-export const Error = Template.bind({});
-Error.args = {
+export const ERROR = Template.bind({});
+ERROR.args = {
   primary: true,
   label: 'ERROR',
+  onclick: '',
+  backgroundColor: '#DF0303'
 };
 
 export const OK = Template.bind({});
 OK.args = {
   label: 'OK',
+  backgroundColor: '#0bec03'
+};
+
+export const NewBtn = Template.bind({});
+NewBtn.args = {
+  label: 'New',
+  backgroundColor: '#0397ec'
 };
 

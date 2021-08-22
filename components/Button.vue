@@ -33,8 +33,9 @@ export default {
     classes() {
       return {
         'storybook-button': true,
-        'storybook-button--primary': this.primary,
-        'storybook-button--secondary': !this.primary,
+        'storybook-button--ERROR': this.ERROR,
+        'storybook-button--OK': !this.OK,
+        'storybook-button--NewBtn': !this.NewBtn,
         [`storybook-button--${this.size}`]: true,
       };
     },

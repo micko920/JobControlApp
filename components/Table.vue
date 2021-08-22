@@ -20,24 +20,15 @@
 <script>
 export default {
   name: 'JobList',
-  data() {
-    return {
-      jsonLink1: 'https://mysite.com/test.json', // only this works
-      jsonLink2: '/storage.json', // not working (
-    }
-  },
-
-  function () {
-    fetch(this.$data.jsonLink1, { mode: 'cors' })
-      .then(function (response) {
-        return response.text()
-      })
-      .then(function (text) {
-        console.log('Request successful', text)
-      })
-      .catch(function (error) {
-        console.log('Request failed', error)
-      })
+  props: {
+    label: {
+      type: String,
+      required: true,
+    },
+    primary: {
+      type: Boolean,
+      default: false,
+    },
   },
 }
 </script>

@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/home/funbuffy/Projects/design/wireframe/JobControlBackup/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_71088a06"
+    "chunkName": "pages/index"
   }
 ]

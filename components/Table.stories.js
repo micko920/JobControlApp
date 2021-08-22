@@ -7,6 +7,6 @@ export default {
 
 
 const Template = () => ({
-    components: { MyButton },
+    components: { JobList },
     template: '<JobList />',
   });

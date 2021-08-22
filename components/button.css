@@ -7,13 +7,17 @@
   display: inline-block;
   line-height: 1;
 }
-.storybook-button--primary {
+.storybook-button--ERROR {
   color: white;
-  background-color: rgb(233, 3, 3);
+  background-color: #DF0303;
 }
-.storybook-button--secondary {
+.storybook-button--OK {
   color: white;
   background-color: #0bec03;
+}
+.storybook-button--NewBtn {
+  color: white;
+  background-color: #0397ec;
 }
 .storybook-button--small {
   font-size: 12px;
