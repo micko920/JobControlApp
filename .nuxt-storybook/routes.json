@@ -1,8 +1,23 @@
 [
   {
+    "name": "JobEditor",
+    "path": "/JobEditor",
+    "component": "/home/funbuffy/Projects/design/wireframe/JobControlBackup/pages/JobEditor.vue",
+    "chunkName": "pages/JobEditor",
+    "_name": "_bd9522c4"
+  },
+  {
+    "name": "JobLog",
+    "path": "/JobLog",
+    "component": "/home/funbuffy/Projects/design/wireframe/JobControlBackup/pages/JobLog.vue",
+    "chunkName": "pages/JobLog",
+    "_name": "_ae5d8d3a"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/funbuffy/Projects/design/wireframe/JobControlBackup/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_71088a06"
   }
 ]

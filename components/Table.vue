@@ -1,14 +1,14 @@
 <template>
-  <table>
-    <thead>
+  <table class="w-9/12 mt-16 mx-auto">
+    <thead class="text-2xl">
       <th>State</th>
       <th>Title</th>
       <th>Last Edited</th>
       <th>Date Created</th>
     </thead>
     <tbody>
-      <tr>
-        <td><Button label="OK" /></td>
+      <tr class="">
+        <td><router-link to="/JobEditor"><Button label="OK" backgroundColor="#0bec03"/></router-link></td>
         <td>HelloWorld.R</td>
         <td>10 mins</td>
         <td>10/10/2002</td>
@@ -21,10 +21,6 @@
 export default {
   name: 'JobList',
   props: {
-    label: {
-      type: String,
-      required: true,
-    },
     primary: {
       type: Boolean,
       default: false,
